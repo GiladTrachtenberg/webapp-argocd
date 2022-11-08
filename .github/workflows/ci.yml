@@ -5,7 +5,7 @@ on: [push, pull_request]
 jobs:
   ci:
     name: Docker build and push.
-    runs-on: ubuntu-22.04
+    runs-on: gilad-runner
     steps: 
       -
         name: Checkout
